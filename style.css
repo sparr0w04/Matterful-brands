@@ -126,9 +126,9 @@ margin-bottom: var(--paragraphMarginBottom);
 Упрощаем работу с изображениями
 */
 img {
-display: block;
 max-width: 100%;
-max-height: 95%;
+height: auto;
+vertical-align: middle;
 }
 
 /**
@@ -289,15 +289,11 @@ background-color: var(--color-light-gray);
   align-items: center;
   background-color: var(--color-light-gray);
   max-height: 288px;
-  padding: 60px 0;
-}
-
-.header-logo {
-padding-bottom: 7px;
+  gap: 8px;
+  margin-block: 60px;
 }
 
 .header-title {
-padding-top: 7px;
 text-align:center;
 font-family: var(--font-family-base);
 }
@@ -859,7 +855,7 @@ justify-items: center;
 
 .home-services-container {
 width: 1200px ;
-height: 492px;
+margin-bottom: 30px;
 display: grid;
 justify-items: center;
 }
@@ -1038,6 +1034,7 @@ padding-bottom: 7px;
 .footer-contact-subtitle {
 font-size: clamp(0.875rem, 0.8rem + 0.38vw, 1.25rem);
 padding-bottom: 17px;
+padding-inline: 20px;
 }
 
 .footer-contact-button {
@@ -1141,6 +1138,7 @@ padding-left: 12%;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-end;
+padding-right: 30px;
 }
 
 .footer-location-place {
@@ -1175,7 +1173,6 @@ padding-right: 15px;
 
 .footer-right-side {
 display: grid;
-padding-left: 30px;
 }
 
 .footer-column-title {
@@ -1700,7 +1697,7 @@ font-size: 14px;
 
 
 .product-box {
-padding: 10px 10px 10px 10px;
+padding: 20px 10px 20px 10px;
 }
 
 .product-info-title {
